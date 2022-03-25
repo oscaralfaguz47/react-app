@@ -54,9 +54,9 @@ const SingleTodo = ({ todo, todos, setTodos }: Props) => {
             }
 
             <div>
-                <span className="icon" onClick={() => { if (!edit && todo.isDone) { setEdit(!edit) } }}><AiFillEdit /></span>
-                <span className="icon" onClick={() => handleDelete(todo.id)}><AiFillDelete /></span>
-                <span className="icon" onClick={() => handleDone(todo.id)}><MdDone /></span>
+                <span className="icon icon-edit" onClick={() => { if (!edit) { setEdit(!edit) } }}><AiFillEdit /></span>
+                <span className="icon icon-delete" onClick={() => handleDelete(todo.id)}><AiFillDelete /></span>
+                <span className="icon icon-done" onClick={() => handleDone(todo.id)}><MdDone /></span>
             </div>
         </form>
     )
