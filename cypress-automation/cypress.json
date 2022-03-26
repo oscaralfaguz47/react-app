@@ -5,6 +5,5 @@
     "chromeWebSecurity": false,
     "env": {
         "URL": "http://localhost:3000/"
-    },
-    "testFiles": "**/*.{feature,features}"
+    }
 }
