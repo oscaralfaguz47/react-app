@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Tasks page",
+    "line": 1,
+    "id": "tasks-page",
+    "tags": [],
+    "uri": "Tasks.feature",
+    "elements": [
+      {
+        "id": "tasks-page;verify-that-the-user-is-able-to-add-a-new-task",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify that the user is able to add a new task",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I access the Tasks web page",
+            "result": {
+              "status": "passed",
+              "duration": 1868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter a task name in the input field \"Create React Sample Application\"",
+            "result": {
+              "status": "passed",
+              "duration": 621000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I hit the Enter key",
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I will be able to add the new task",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
