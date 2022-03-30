@@ -22,7 +22,7 @@
             "name": "I access the Tasks web page",
             "result": {
               "status": "passed",
-              "duration": 1098000000
+              "duration": 1383000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I enter a task name in the input field \"Create React Sample Application\"",
             "result": {
               "status": "passed",
-              "duration": 550000000
+              "duration": 560000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I hit the Enter key",
             "result": {
               "status": "passed",
-              "duration": 81000000
+              "duration": 91000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I will be able to add the new task \"Create React Sample Application\"",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 17000000
             }
           }
         ]
@@ -72,7 +72,7 @@
             "name": "I access the Tasks web page",
             "result": {
               "status": "passed",
-              "duration": 122000000
+              "duration": 142000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I add a new task \"Create Angular Sample Application\"",
             "result": {
               "status": "passed",
-              "duration": 626000000
+              "duration": 671000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I click on the edit button icon from the added task",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 92000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I update the task name in the input field to \"Create React Sample Application\"",
             "result": {
               "status": "passed",
-              "duration": 533000000
+              "duration": 562000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I hit the enter key in the added task input field",
             "result": {
               "status": "passed",
-              "duration": 79000000
+              "duration": 77000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I will be able to update the task to \"Create React Sample Application\"",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 9000000
             }
           }
         ]
@@ -142,7 +142,7 @@
             "name": "I access the Tasks web page",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 125000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "I add a new task \"Integrate automation project with Jenkins\"",
             "result": {
               "status": "passed",
-              "duration": 713000000
+              "duration": 733000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "I click on the delete button from the added task \"Integrate automation project with Jenkins\"",
             "result": {
               "status": "passed",
-              "duration": 84000000
+              "duration": 93000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "I access the Tasks web page",
             "result": {
               "status": "passed",
-              "duration": 88000000
+              "duration": 117000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "I add a new task \"Complete the continuous integration with GitHub and Jira\"",
             "result": {
               "status": "passed",
-              "duration": 906000000
+              "duration": 944000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "I click on the Done button from the added task \"Complete the continuous integration with GitHub and Jira\"",
             "result": {
               "status": "passed",
-              "duration": 87000000
+              "duration": 92000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "I will be able to get Done the added task \"Complete the continuous integration with GitHub and Jira\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 11000000
             }
           }
         ]
