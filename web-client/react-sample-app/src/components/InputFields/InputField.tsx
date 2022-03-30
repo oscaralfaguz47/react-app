@@ -12,7 +12,7 @@ export const InputField = ({todo, setTodo, handleAdd}:Props) => {
   return (
     <form className='input' onSubmit={(e) => {handleAdd(e); inputRef.current?.blur()}}>
         <input id='enter-task' ref={inputRef} type="input" placeholder='Enter a task' className='input-box' value={todo} onChange={(e)=>setTodo(e.target.value)} />
-        <button className='input-submit' type='submit'>Go</button>
+        <button className='input-submit' type='submit'>Add</button>
     </form>
   )
 }

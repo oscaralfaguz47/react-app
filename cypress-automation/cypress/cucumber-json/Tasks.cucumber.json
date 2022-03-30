@@ -22,7 +22,7 @@
             "name": "I access the Tasks web page",
             "result": {
               "status": "passed",
-              "duration": 1868000000
+              "duration": 1098000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I enter a task name in the input field \"Create React Sample Application\"",
             "result": {
               "status": "passed",
-              "duration": 621000000
+              "duration": 550000000
             }
           },
           {
@@ -42,17 +42,187 @@
             "name": "I hit the Enter key",
             "result": {
               "status": "passed",
-              "duration": 142000000
+              "duration": 81000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 7,
-            "name": "I will be able to add the new task",
+            "name": "I will be able to add the new task \"Create React Sample Application\"",
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tasks-page;verify-that-the-user-is-able-to-edit-an-added-task",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verify that the user is able to edit an added task",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I access the Tasks web page",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I add a new task \"Create Angular Sample Application\"",
+            "result": {
+              "status": "passed",
+              "duration": 626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click on the edit button icon from the added task",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I update the task name in the input field to \"Create React Sample Application\"",
+            "result": {
+              "status": "passed",
+              "duration": 533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I hit the enter key in the added task input field",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I will be able to update the task to \"Create React Sample Application\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tasks-page;verify-that-the-user-is-able-to-delete-an-added-task",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Verify that the user is able to delete an added task",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I access the Tasks web page",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I add a new task \"Integrate automation project with Jenkins\"",
+            "result": {
+              "status": "passed",
+              "duration": 713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on the delete button from the added task \"Integrate automation project with Jenkins\"",
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I will be able to delete the added task \"Integrate automation project with Jenkins\"",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tasks-page;verify-that-the-user-is-able-to-get-done-a-task",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Verify that the user is able to get Done a task",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I access the Tasks web page",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I add a new task \"Complete the continuous integration with GitHub and Jira\"",
+            "result": {
+              "status": "passed",
+              "duration": 906000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I click on the Done button from the added task \"Complete the continuous integration with GitHub and Jira\"",
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I will be able to get Done the added task \"Complete the continuous integration with GitHub and Jira\"",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
             }
           }
         ]
